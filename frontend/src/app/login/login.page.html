@@ -1,0 +1,37 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content>
+  <div class="center">
+    <ion-card id="card-style">
+      <ion-card-content id="card-content-style">
+        <ion-grid id="grid-style">
+          <ion-row>
+            <ion-col id="col1-login">
+
+              <p class="titulo">Login</p>
+
+              <ion-item fill="solid" id="item-email" class="itens_login">
+                <ion-label position="floating">E-mail</ion-label>
+                <ion-input type="email" ngModel email placeholder="email@dominio.com"></ion-input>
+                <ion-note slot="helper">Digite um e-mail válido</ion-note>
+                <ion-note slot="error">E-mail inválido</ion-note>
+              </ion-item>
+              <ion-item fill="solid" id="item-senha" class="itens_login">
+                <ion-label position="floating">Senha</ion-label>
+                <ion-input type="password"></ion-input>
+              </ion-item>
+              <div id="botao">
+                <ion-button id="botao-entrar" class="itens_login">Entrar</ion-button>
+              </div>
+            </ion-col>
+            <ion-col id="col2-login">
+
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

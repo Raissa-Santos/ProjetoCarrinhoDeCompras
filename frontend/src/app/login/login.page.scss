@@ -1,0 +1,62 @@
+.itens_login{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#item-email{
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+#item-senha{
+    padding-bottom: 3%;
+}
+
+.center{
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#card-style{
+    width: 70%;
+    background-color: darkblue;
+}
+
+#card-content-style{
+    padding: 0%;
+    margin: 0%;
+}
+
+#grid-style{
+    padding: 0%;
+    margin: 0%;
+}
+
+#col1-login{
+    background-image: url("../../images/fundo-login.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+
+#botao{
+    padding-bottom: 10%;
+}
+
+#botao-entrar{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;    
+}
+
+.titulo{
+    padding-top: 10%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
